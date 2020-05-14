@@ -59,7 +59,7 @@ def set_vrep_angels(data):
 	print(angle)
 	v.set_angle(joint,angle)
 	if printing == True:
-		print('Recieved ')
+		print('Received ')
 	# print(ang)
 def start_vrep_node():
 	global mode
@@ -167,7 +167,7 @@ def set_vrep_torques(data):
 	print(angle)
 	#v.set_torque(joint,angle)
 	if printing == True:
-		print('Recieved ')
+		print('Received ')
 	# print(ang)
 
 
